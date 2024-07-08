@@ -3,7 +3,7 @@ guid: 52b0e5854f2bd4e439104becb4b98a57
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -20,11 +20,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -63,6 +64,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -74,6 +77,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -86,6 +90,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -98,6 +103,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -975,50 +981,49 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      RocketSpritesheet_18: -56400253
-      RocketSpritesheet_2: 32779632
+      RocketSpritesheet_0: -2092149114
+      RocketSpritesheet_1: 328284947
+      RocketSpritesheet_10: -2101561206
+      RocketSpritesheet_11: 1433990890
+      RocketSpritesheet_12: 1689790253
       RocketSpritesheet_13: -1290899821
-      RocketSpritesheet_22: -176747111
+      RocketSpritesheet_14: 348054441
+      RocketSpritesheet_15: -384993016
+      RocketSpritesheet_16: -1004040707
       RocketSpritesheet_17: 378977857
-      RocketSpritesheet_39: 1394780918
-      RocketSpritesheet_29: -1534367710
-      RocketSpritesheet_30: -1723491078
-      RocketSpritesheet_28: 2089107474
+      RocketSpritesheet_18: -56400253
+      RocketSpritesheet_19: -1190972137
+      RocketSpritesheet_2: 32779632
       RocketSpritesheet_20: 460101942
+      RocketSpritesheet_21: -1459872508
+      RocketSpritesheet_22: -176747111
       RocketSpritesheet_23: -2050424015
+      RocketSpritesheet_24: 96014163
+      RocketSpritesheet_25: -359634758
+      RocketSpritesheet_26: 2137311679
+      RocketSpritesheet_27: -286343473
+      RocketSpritesheet_28: 2089107474
+      RocketSpritesheet_29: -1534367710
+      RocketSpritesheet_3: 1377962099
+      RocketSpritesheet_30: -1723491078
+      RocketSpritesheet_31: -1346326207
+      RocketSpritesheet_32: -1538862467
+      RocketSpritesheet_33: 1395165470
+      RocketSpritesheet_34: -1718167144
+      RocketSpritesheet_35: -15479939
+      RocketSpritesheet_36: -441336484
+      RocketSpritesheet_37: -109643932
+      RocketSpritesheet_38: -681341025
+      RocketSpritesheet_39: 1394780918
+      RocketSpritesheet_4: -422193985
+      RocketSpritesheet_40: 1641873594
+      RocketSpritesheet_5: 2041080497
+      RocketSpritesheet_6: -1621749247
+      RocketSpritesheet_7: 1286577199
       RocketSpritesheet_8: 1803575124
       RocketSpritesheet_9: -426102105
-      RocketSpritesheet_11: 1433990890
-      RocketSpritesheet_14: 348054441
-      RocketSpritesheet_33: 1395165470
-      RocketSpritesheet_5: 2041080497
-      RocketSpritesheet_19: -1190972137
-      RocketSpritesheet_31: -1346326207
-      RocketSpritesheet_27: -286343473
-      RocketSpritesheet_35: -15479939
-      RocketSpritesheet_6: -1621749247
-      RocketSpritesheet_36: -441336484
-      RocketSpritesheet_16: -1004040707
-      RocketSpritesheet_26: 2137311679
-      RocketSpritesheet_40: 1641873594
-      RocketSpritesheet_3: 1377962099
-      RocketSpritesheet_32: -1538862467
-      RocketSpritesheet_24: 96014163
-      RocketSpritesheet_7: 1286577199
-      RocketSpritesheet_37: -109643932
-      RocketSpritesheet_1: 328284947
-      RocketSpritesheet_25: -359634758
-      RocketSpritesheet_10: -2101561206
-      RocketSpritesheet_21: -1459872508
-      RocketSpritesheet_34: -1718167144
-      RocketSpritesheet_4: -422193985
-      RocketSpritesheet_38: -681341025
-      RocketSpritesheet_15: -384993016
-      RocketSpritesheet_0: -2092149114
-      RocketSpritesheet_12: 1689790253
-  spritePackingTag: 
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
