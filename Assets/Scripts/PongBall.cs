@@ -9,11 +9,10 @@ public class PongBall : MonoBehaviour {
 
 	public int ballSpeed;
 
-	// // Range of angles = [-60, -30] u [30, 60].
+	// Range of angles = [-60, -30] u [30, 60].
 	public double maxAngleDegrees;
 	public double minAngleDegrees;
 
-	// Start is called before the first frame update.
 	public void Start() {
 		StartingForce();
 	}
@@ -26,7 +25,6 @@ public class PongBall : MonoBehaviour {
 		}
 
 		// Angle to make ball go to corner = 36.8698976 degrees.
-
 		float maxAngleTan = (float)Math.Tan(Mathf.Deg2Rad * maxAngleDegrees);
 		float minAngleTan = (float)Math.Tan(Mathf.Deg2Rad * minAngleDegrees);
 
@@ -53,9 +51,6 @@ public class PongBall : MonoBehaviour {
 		);
 
 		startingDirection.Normalize();
-
-		// Used in the old collision speed increase script.
-		// direction = startingDirection;
 
 		rigidBody.position = Vector2.zero;
 		rigidBody.velocity = Vector2.zero;

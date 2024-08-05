@@ -11,7 +11,6 @@ public class GameManager : MonoBehaviour {
 
 	public KeyCode resetButton;
 
-	// Start is called before the first frame update.
 	private void Start()
 	{
 		UpdateText();

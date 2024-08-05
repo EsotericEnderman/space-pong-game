@@ -11,7 +11,6 @@ public class Paddle : MonoBehaviour {
 	public bool isComputer;
 	public SpriteRenderer spriteRenderer;
 
-	// Update is called once per frame.
 	public void Update() {
 		if (!isComputer) {
 			if (Input.GetKey(upButton))
