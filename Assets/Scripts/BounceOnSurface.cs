@@ -8,7 +8,9 @@ public class BounceOnSurface : MonoBehaviour {
 		PongBall ball = collision.gameObject.GetComponent<PongBall>();
 
 		// Prevents the script affecting the ball's velocity after it has been reset.
-		if ((ball != null) && ((Math.Abs(ball.transform.position.x) < 7.449597f) || (Math.Abs(ball.transform.position.y) < 5.587201f))) {
+		float maxVerticalCollision = 5.5F;
+		float maxHorizontalCollision = 7.4F;
+		if ((ball != null) && ((Math.Abs(ball.transform.position.x) < maxVerticalCollision) || (Math.Abs(ball.transform.position.y) < maxHorizontalCollision))) {
 			Vector2 normal = collision.GetContact(0).normal;
 
 			ball.rigidBody.AddForce(-normal * bounceStrength);
