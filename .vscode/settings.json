@@ -2,8 +2,10 @@
     "dotnet.preferCSharpExtension": true,
     "cSpell.words": [
         "Behaviour",
+        "enderman",
         "Enderman",
         "Mathf",
-        "Rigidbody"
+        "Rigidbody",
+        "spacepong"
     ]
 }
