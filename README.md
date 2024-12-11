@@ -1,5 +1,7 @@
 # Space Pong Game
 
+[![Project Status: Completed](./Assets/Badges/Status.svg)](./)
+
 > My first Unity game - my own take on the classic "Pong" game.
 
 ## License
